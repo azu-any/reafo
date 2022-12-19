@@ -13,8 +13,8 @@ a{color:#cc6715}
 /* Header is also in single page */
 header#header #headerContent h1{color:#cc6715;border:none;margin-right:75px}
 #header h1{margin:0;font-size:1em;color:#00843D}
-#emptyHeader,#nodeDecoration{height:auto;font-size:1em;text-align:left;letter-spacing:.5px;padding:16px 25px 16px 10px;border-bottom:3px solid #00843D;margin-bottom:0;background:url(img/_style_logo.png) no-repeat 100% 50%}
-#header{height:auto;font-size:1em;text-align:left;letter-spacing:.5px;padding:16px 25px 16px 0px;border:none;margin-bottom:0;background:url(img/_style_logo.png) no-repeat 100% 50%}
+#emptyHeader,#nodeDecoration{height:auto;font-size:1em;text-align:left;letter-spacing:.5px;padding:16px 25px 16px 10px;border-bottom:3px solid #00843D;margin-bottom:0;background:url(../img/_style_logo.png) no-repeat 100% 50%}
+#header{height:auto;font-size:1em;text-align:left;letter-spacing:.5px;padding:16px 25px 16px 0px;border:none;margin-bottom:0;background:url(..(img/_style_logo.png) no-repeat 100% 50%}
 .exe-single-page #header{font-size:1.55em}
 #nodeTitle{font-size:1.55em;margin:0;color:#00843D;padding-right:60px}
 #header h1,#nodeTitle{text-shadow:0 0 8px rgba(255,255,255,.6),0 0 5px rgba(255,255,255,.6),0 0 2px rgba(255,255,255,.9)}
@@ -60,7 +60,7 @@ section.previousnext{display:none}
 .iDevice_inner{padding:10px 20px 20px 20px;background:#fff;box-shadow:0px 18px 16px -6px rgba(0,0,0,0.37);border-radius:20px;border:4px solid #0065AB}
 .iDeviceTitle{color:#0065AB}
 /* iDevice icons */
-.iDevice_header{background:url(icon_udl_exp_interactivo.svg) no-repeat 0 50%;padding:5px 0 5px 80px;position:relative;min-height:60px}
+.iDevice_header{background:url(../img/icon_udl_exp_interactivo.svg) no-repeat 0 50%;padding:5px 0 5px 80px;position:relative;min-height:60px}
 .iDevice .iDevice_header.iDevice_header_noIcon{padding:0 0 0 10px;background-image:none}
 /* Buttons */
 .feedbackbutton,.feedback-button input,.iDevice_buttons input{text-decoration:none;background-color:#0065ab;padding:.3em 1em;color:#fff;transition:background-color 0.4s ease-in-out;display:inline-block;border:none;cursor:pointer}
@@ -69,8 +69,8 @@ section.previousnext{display:none}
 .emphasis0 .feedbackbutton,.emphasis0 .feedback-button input,.emphasis0 .iDevice_buttons input{background-color:#CC6715}
 .emphasis0 .feedbackbutton:hover,.emphasis0 .feedback-button input:hover,.emphasis0 .iDevice_buttons input:hover{background-color:#9D4C0A}
 
-.activityIdevice .iDevice_header{background-image:url(img/icon_udl_exp_actividad.svg)}
-.readingIdevice .iDevice_header{background-image:url(img/icon_udl_exp_lee.svg)}
+.activityIdevice .iDevice_header{background-image:url(../img/icon_udl_exp_actividad.svg)}
+.readingIdevice .iDevice_header{background-image:url(../img/icon_udl_exp_lee.svg)}
 
 .iDevice_wrapper[class*='em_iDevice_udl_exp'] .exe-table,
 .UDLcontentIdevice-exp .exe-table{border-color:#0065ab}
@@ -98,12 +98,12 @@ section.previousnext{display:none}
 .OrientacionestutoriafpdIdevice .iDevice_inner,
 .UDLcontentIdevice-eng .iDevice_inner{border-color:#499113}
 
-.objectivesIdevice .iDevice_header{background-image:url(img/icon_udl_eng_objetivos.svg)}
-.download-packageIdevice .iDevice_header{background-image:url(img/icon_udl_eng_descarga.svg);padding-left:95px}
-.RssIdevice .iDevice_header{background-image:url(img/icon_udl_eng_rss.svg)}
-.RubricIdevice .iDevice_header{background-image:url(img/icon_udl_eng_rubrica.svg)}
+.objectivesIdevice .iDevice_header{background-image:url(../img/icon_udl_eng_objetivos.svg)}
+.download-packageIdevice .iDevice_header{background-image:url(../img/icon_udl_eng_descarga.svg);padding-left:95px}
+.RssIdevice .iDevice_header{background-image:url(../img/icon_udl_eng_rss.svg)}
+.RubricIdevice .iDevice_header{background-image:url(../img/icon_udl_eng_rubrica.svg)}
 .OrientacionesalumnadofpdIdevice .iDevice_header,
-.OrientacionestutoriafpdIdevice .iDevice_header{background-image:url(img/icon_udl_eng_rubrica.svg)}
+.OrientacionestutoriafpdIdevice .iDevice_header{background-image:url(../img/icon_udl_eng_rubrica.svg)}
 
 .iDevice_wrapper[class*='em_iDevice_udl_eng'] .exe-table,
 .UDLcontentIdevice-eng .exe-table{background:#fff;border-color:#549b0d}
@@ -152,20 +152,20 @@ section.previousnext{display:none}
 .WikipediaIdevice .iDevice_inner,
 .UDLcontentIdevice-rep .iDevice_inner{border-color:#A25AC4}
 
-.GalleryIdevice .iDevice_header{background-image:url(img/icon_udl_rep_galeria.svg)}
-.FileAttachIdeviceInc .iDevice_header{background-image:url(img/icon_udl_rep_adjunto.svg)}
+.GalleryIdevice .iDevice_header{background-image:url(../img/icon_udl_rep_galeria.svg)}
+.FileAttachIdeviceInc .iDevice_header{background-image:url(../img/icon_udl_rep_adjunto.svg)}
 .CasopracticofpdIdevice .iDevice_header,
-.CasestudyIdevice .iDevice_header{background-image:url(img/icon_udl_rep_caso.svg)}
+.CasestudyIdevice .iDevice_header{background-image:url(../img/icon_udl_rep_caso.svg)}
 .CitasparapensarfpdIdevice .iDevice_header,
 .ReflectionfpdIdevice .iDevice_header,
 .ReflectionfpdmodifIdevice .iDevice_header,
-.ReflectionIdevice .iDevice_header{background-image:url(img/icon_udl_rep_reflexion.svg)}
-.EjercicioresueltofpdIdevice .iDevice_header{background-image:url(img/icon_udl_rep_ejemplo.svg)}
+.ReflectionIdevice .iDevice_header{background-image:url(../img/icon_udl_rep_reflexion.svg)}
+.EjercicioresueltofpdIdevice .iDevice_header{background-image:url(../img/icon_udl_rep_ejemplo.svg)}
 .ParasabermasfpdIdevice .iDevice_header,
-.WikipediaIdevice .iDevice_header{background-image:url(img/icon_udl_rep_informarse.svg)}
-.RecomendacionfpdIdevice .iDevice_header{background-image:url(img/icon_udl_rep_recomienda.svg)}
+.WikipediaIdevice .iDevice_header{background-image:url(../img/icon_udl_rep_informarse.svg)}
+.RecomendacionfpdIdevice .iDevice_header{background-image:url(../img/icon_udl_rep_recomienda.svg)}
 .DebesconocerfpdIdevice .iDevice_header,
-.preknowledgeIdevice .iDevice_header{background-image:url(img/icon_udl_rep_conocer.svg)}
+.preknowledgeIdevice .iDevice_header{background-image:url(../img/icon_udl_rep_conocer.svg)}
 
 .iDevice_wrapper[class*='em_iDevice_udl_rep'] .exe-table,
 .UDLcontentIdevice-rep .exe-table{background:#fff;border-color:#784aba}
@@ -266,7 +266,7 @@ li{list-style-position:outside}
 .toggle-idevice{text-align:right;display:block;margin-right:13px;line-height:21px;height:21px}
 .iDevice_header .toggle-idevice{position:absolute;right:13px;bottom:13px;margin:0}
 .toggle-idevice{margin-top:5px;margin-bottom:0px}
-.toggle-idevice a{display:inline-block;width:20px;height:20px;background:url(img/_style_icons.png) no-repeat 0 -20px}
+.toggle-idevice a{display:inline-block;width:20px;height:20px;background:url(../img/_style_icons.png) no-repeat 0 -20px}
 .toggle-idevice .show-idevice{background-position:0 0}
 .toggle-idevice span{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:0}
 .toggle-idevice + .iDevice.emphasis0{margin-top:0}
@@ -280,7 +280,7 @@ li{list-style-position:outside}
 #packageLicense p{margin:20px 0}
 #packageLicense a{color:#444;text-decoration:underline}
 #packageLicense.propietary{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:0}
-#packageLicense.cc{padding:0 20px 10px 110px;background:transparent url(img/_style_licenses.gif) no-repeat 20px 5px}
+#packageLicense.cc{padding:0 20px 10px 110px;background:transparent url(../img/_style_licenses.gif) no-repeat 20px 5px}
 #packageLicense.cc-by-sa{background-position:20px -95px}
 #packageLicense.cc-by-nd{background-position:20px -195px}
 #packageLicense.cc-by-nc{background-position:20px -295px}
@@ -316,14 +316,14 @@ li{list-style-position:outside}
 	header.nodeDecoration h1.nodeTitle{page-break-after:none!important}
 	#header{height:auto;font-size:1em;text-align:left;letter-spacing:.5px;padding:0px 25px 16px 0px;border:none;margin-bottom:0}
 	.nodeDecoration{padding-top:10px}
-	#headerContent{min-height:51px;background:url(img/_style_logo.png) no-repeat 100% 20%;padding-bottom:15px}
+	#headerContent{min-height:51px;background:url(../img/_style_logo.png) no-repeat 100% 20%;padding-bottom:15px}
 	#nodeDecoration,#emptyHeader{color:#000;text-shadow:none;background:none;border:2px solid #CC6715;padding:5px 5px 10px 15px;margin-left:10px}
 	#nodeDecoration,#header,#emptyHeader{color:#000;text-shadow:none;background:none;border:none;padding:20px 0}
 	#packageLicense{text-align:left;font-size:.8em;padding:0 20px;color:#444;line-height:1em;margin:0 0 25px 0;background:#fff;border-top:1px solid #00843d}
 	#packageLicense p{margin:20px 0}
 	#packageLicense a{color:#444;text-decoration:underline}
 	#packageLicense.propietary{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:0}
-	#packageLicense.cc{padding:0 20px 0px 110px;background:transparent url(img/_style_licenses.gif) no-repeat 20px 5px}
+	#packageLicense.cc{padding:0 20px 0px 110px;background:transparent url(../img/_style_licenses.gif) no-repeat 20px 5px}
 	#packageLicense.cc-by-sa{background-position:20px -95px}
 	#packageLicense.cc-by-nd{background-position:20px -195px}
 	#packageLicense.cc-by-nc-sa{background-position:20px -295px}
