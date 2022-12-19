@@ -199,7 +199,7 @@ var myTheme = {
 							var header = $(".iDevice_header",this);
 							if (header.length==1) {
 								var img = header.attr("style");
-								if (typeof(img)=='string' && (img.indexOf("../img/icon_udl_exp_tarea.svg")!=-1||img.indexOf(../img"icon_udl_exp_interactivo.svg")!=-1)) {
+								if (typeof(img)=='string' && (img.indexOf("../img/icon_udl_exp_tarea.svg")!=-1||img.indexOf("../img/icon_udl_exp_interactivo.svg")!=-1)) {
 									var aW = $(this);
 									aW.addClass("hidden-idevice");
 									$(".toggle-idevice a",aW).attr("class","show-idevice");
