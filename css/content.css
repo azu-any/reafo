@@ -14,7 +14,7 @@ a{color:#cc6715}
 header#header #headerContent h1{color:#cc6715;border:none;margin-right:75px}
 #header h1{margin:0;font-size:1em;color:#00843D}
 #emptyHeader,#nodeDecoration{height:auto;font-size:1em;text-align:left;letter-spacing:.5px;padding:16px 25px 16px 10px;border-bottom:3px solid #00843D;margin-bottom:0;background:url(../img/_style_logo.png) no-repeat 100% 50%}
-#header{height:auto;font-size:1em;text-align:left;letter-spacing:.5px;padding:16px 25px 16px 0px;border:none;margin-bottom:0;background:url(..(img/_style_logo.png) no-repeat 100% 50%}
+#header{height:auto;font-size:1em;text-align:left;letter-spacing:.5px;padding:16px 25px 16px 0px;border:none;margin-bottom:0;background:url(../img/_style_logo.png) no-repeat 100% 50%}
 .exe-single-page #header{font-size:1.55em}
 #nodeTitle{font-size:1.55em;margin:0;color:#00843D;padding-right:60px}
 #header h1,#nodeTitle{text-shadow:0 0 8px rgba(255,255,255,.6),0 0 5px rgba(255,255,255,.6),0 0 2px rgba(255,255,255,.9)}
