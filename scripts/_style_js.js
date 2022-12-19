@@ -174,9 +174,9 @@ var myTheme = {
 					var header = $(".iDevice_header",this);
 					var icon = header.css("background-image");
 					if (typeof(icon)=='string'){
-						if (icon.indexOf("icon_udl_eng")!=-1) $(this).addClass("em_iDevice_udl_eng_like");
-						if (icon.indexOf("icon_udl_exp")!=-1) $(this).addClass("em_iDevice_udl_exp_like");
-						if (icon.indexOf("icon_udl_rep")!=-1) $(this).addClass("em_iDevice_udl_rep_like");
+						if (icon.indexOf("../img/icon_udl_eng")!=-1) $(this).addClass("em_iDevice_udl_eng_like");
+						if (icon.indexOf("../img/icon_udl_exp")!=-1) $(this).addClass("em_iDevice_udl_exp_like");
+						if (icon.indexOf("../img/icon_udl_rep")!=-1) $(this).addClass("em_iDevice_udl_rep_like");
 					}
 				}
 			}); 
@@ -199,7 +199,7 @@ var myTheme = {
 							var header = $(".iDevice_header",this);
 							if (header.length==1) {
 								var img = header.attr("style");
-								if (typeof(img)=='string' && (img.indexOf("icon_udl_exp_tarea.svg")!=-1||img.indexOf("icon_udl_exp_interactivo.svg")!=-1)) {
+								if (typeof(img)=='string' && (img.indexOf("../img/icon_udl_exp_tarea.svg")!=-1||img.indexOf(../img"icon_udl_exp_interactivo.svg")!=-1)) {
 									var aW = $(this);
 									aW.addClass("hidden-idevice");
 									$(".toggle-idevice a",aW).attr("class","show-idevice");
