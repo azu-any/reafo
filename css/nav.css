@@ -15,6 +15,22 @@ body{padding:0;text-align:center}
 #nodeDecoration{padding:0 30px 0 0;margin:0 0 25px 0;border:none;text-shadow:none;background:none;border-bottom:3px solid #00843D;background:url(../img/style_logo.png) no-repeat 100% 50%!important}
 #nodeTitle{padding:17px 0px 15px 10px;color:#00843D;letter-spacing:.5px;font-size:1.7em;font-weight:bold;margin-right:2.3em}
 #siteFooter{padding:5px 20px 20px 20px;text-align:right;margin-top:-56px}
+/* Button */
+#button {
+	color:#ffffff;
+	position: fixed;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 15px;
+	font-weight:bold;
+	margin: 0px 0 60px 0;
+	cursor: pointer;
+	padding-top:10px;
+	background:#78e3f3;
+	float:left
+  }
 /* Navigation */
 #skipNav{font-size:.95em;text-align:center;padding-top:25px}
 #skipNav a{padding:5px 15px;background:#3a4749}
